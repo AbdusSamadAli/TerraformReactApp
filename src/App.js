@@ -50,7 +50,7 @@ const App = () => {
           }`}
         />
         <div className="absolute top-8 left-2 text-gray-500 text-[18px] font-light tracking-wide">
-          MOBILITY
+          FITNESS
         </div>
       </div>
 
@@ -72,7 +72,7 @@ const App = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute top-8 left-1 text-gray-300 text-[18px] font-light tracking-wide">
-          DRILLS
+          DRILL
         </div>
       </div>
     </div>
