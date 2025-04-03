@@ -1,5 +1,4 @@
 name: Deploy React and Terraform
-
 on:
   push:
     branches:
@@ -23,7 +22,7 @@ jobs:
 
       - name: Build React app
         run: npm run build
-        working-directory: reactproject/ReactApp
+        working-directory: ./
 
   terraform:
     runs-on: ubuntu-latest
